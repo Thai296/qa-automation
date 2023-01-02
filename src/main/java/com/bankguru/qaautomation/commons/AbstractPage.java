@@ -437,4 +437,12 @@ public class AbstractPage {
 			waitForElementVisible(AbstractBankPageUI.DYNAMIC_MESSAGE_LABEL, massageText);
 			return isElementDisplayed(AbstractBankPageUI.DYNAMIC_MESSAGE_LABEL, massageText);
 		}
+		
+		public void switchToDefaultFrame() {
+	        driver.switchTo().defaultContent();
+	    }
+
+	    public void switchToFrame(WebElement element){
+	        driver.switchTo().frame(element);
+	    }
 }

@@ -19,6 +19,11 @@ public class NewCustomerTest extends AbstractTest {
 	public void beforeMethod() {
 		homePageObject = PageGeneratorManager.getHomePage(driver);
 		homePageObject.clickToDynamicLink("New Customer");
+		homePageObject.switchToImageIframe();
+		homePageObject.switchToAdverIframe();
+		homePageObject.clickCloseButtonToHideAdver();
+		homePageObject.switchToDefaultFrame();
+		
 	}
 
 	@Test(description = "NewCustomer - Verify Name Field - Name cannot be empty.")
