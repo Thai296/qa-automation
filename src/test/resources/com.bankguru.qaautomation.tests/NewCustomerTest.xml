@@ -4,9 +4,9 @@
 	<test name="NC1 - Verify Name Field - Name cannot be empty">
 		<classes>
 			<class name="com.bankguru.qaautomation.tests.NewCustomerTest">
-				<methods>
+<!-- 				<methods>
 					<include name="NC1"></include>
-				</methods>
+				</methods> -->
 			</class>
 		</classes>
 	</test>
