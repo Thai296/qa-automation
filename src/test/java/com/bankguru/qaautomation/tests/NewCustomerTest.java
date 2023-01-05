@@ -19,10 +19,10 @@ public class NewCustomerTest extends AbstractTest {
 	public void beforeMethod() {
 		homePageObject = PageGeneratorManager.getHomePage(driver);
 		homePageObject.clickToDynamicLink("New Customer");
-		homePageObject.switchToImageIframe();
-		homePageObject.switchToAdverIframe();
-		homePageObject.clickCloseButtonToHideAdver();
-		homePageObject.switchToDefaultFrame();
+// 		homePageObject.switchToImageIframe();
+// 		homePageObject.switchToAdverIframe();
+// 		homePageObject.clickCloseButtonToHideAdver();
+// 		homePageObject.switchToDefaultFrame();
 		
 	}
 
