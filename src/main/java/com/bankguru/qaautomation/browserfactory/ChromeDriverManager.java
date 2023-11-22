@@ -24,7 +24,7 @@ public class ChromeDriverManager extends DriverManager {
 		options.addArguments("--incognito");
 		options.addArguments("--start-maximized");
 		options.addArguments("--disable-popup-blocking");
-		options.addArguments("--headless");
+//		options.addArguments("--headless");
 		options.addArguments("--disable-extensions");
 		options.addArguments("--disable-infobars");
 		options.addArguments("--disable-geolocation");
