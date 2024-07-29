@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Home Page">
+    <test name="User or Password is not valid">
+        <classes>
+            <class name="tests.HomePageTests">
+                <methods>
+                    <include name="verifyUserOrPasswordIsNotValid"/>
+                    <parameter name="userId" value="mngr465353" />
+                    <parameter name="password" value="mngr465353"/>
+                    <parameter name="alertTxt" value="User or Password is not valid"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> 
